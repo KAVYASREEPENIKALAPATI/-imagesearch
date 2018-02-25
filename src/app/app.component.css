@@ -1,4 +1,7 @@
-#tabs{
-    background-color: pink;
-    width:500px;
+#main{
+    position: fixed;
+}
+img{
+    width:1360px;
+    height:662px;
 }

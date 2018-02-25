@@ -13,8 +13,6 @@ import { ShowImagesComponent } from './show-images/show-images.component';
 import {SearchImageService} from './services/searchImage.service';
 import { DisplayImagesComponent } from './display-images/display-images.component';
 
-import  {SearchComponent} from './search/search.component';
-import {SearchedwordsComponent} from './searchedwords/searchedwords.component';
 var myRoutes:Routes=[
       {path:'keywords',component:KeywordsComponent,
         children:[{path:'keyword/:word',component:KeywordComponent}]},
@@ -27,10 +25,7 @@ var myRoutes:Routes=[
     KeywordsComponent,
     SerchImageComponent,
     ShowImagesComponent,
-    DisplayImagesComponent,
-   
-    SearchComponent,
-    SearchedwordsComponent
+    DisplayImagesComponent
   ],
   imports: [
     BrowserModule,

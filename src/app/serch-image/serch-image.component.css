@@ -1,6 +1,6 @@
-#pk{
-    height:500px;
-    width:1000px;
-    background-color:pink;
-    border-radius: 60px;
+#form{
+    position: fixed;
+    top: 50px;
+    float: left;
+    left:30px;
 }
